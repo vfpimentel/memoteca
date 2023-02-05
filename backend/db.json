@@ -9,7 +9,7 @@
     {
       "id": 2,
       "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
+      "autoria": "Pimentel",
       "modelo": "modelo2"
     },
     {
@@ -19,9 +19,9 @@
       "modelo": "modelo3"
     },
     {
-      "conteudo": "teste",
-      "autoria": "teste",
-      "modelo": "modelo3",
+      "conteudo": "Teste editado",
+      "autoria": "Victor Pimentel",
+      "modelo": "modelo2",
       "id": 10
     }
   ]

@@ -11,6 +11,11 @@ export class PensamentoService {
 
   constructor(private http: HttpClient) {}
 
+  editar(pensamento : Pensamento) : Observable<Pensamento> {
+    const url = `${this.url}/${pensamento.id}`
+    return this.http.put<Pensamento>(url, pensamento)
+  }
+
   excluir(id: number): Observable<Pensamento> {
     const url = `${this.url}/${id}`;
     return this.http.delete<Pensamento>(url);
