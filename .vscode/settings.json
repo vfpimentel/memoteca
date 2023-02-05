@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+}
